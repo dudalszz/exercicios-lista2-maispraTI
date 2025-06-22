@@ -10,7 +10,7 @@ for (let i = 0; i < palavras.length; i++) {
       contador++;
     }
   }
-
+  
   if (contador === 1) {
     unicas.push(palavras[i]);
   }
