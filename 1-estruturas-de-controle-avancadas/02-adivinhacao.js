@@ -1,5 +1,4 @@
 const prompt = require('prompt-sync')();
-// Função para gerar número inteiro aleatório entre min e max
 function numeroAleatorio(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
