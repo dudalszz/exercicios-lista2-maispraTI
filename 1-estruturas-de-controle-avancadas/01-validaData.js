@@ -9,7 +9,7 @@ function ehDataValida(dia, mes, ano) {
     return false;
   }
 
-  const bissexto = ehBissexto(ano);
+  const bissexto = ehBissexto(ano)
 
   let maxDia;
   if (mes === 2) {
